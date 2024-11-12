@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+#listado {
+    margin-top: 50px;
+}
+/* Estilo general de la tabla */
+.contactos-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Encabezado de la tabla */
+.contactos-table thead {
+    background-color: #4CAF50;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+}
+
+.contactos-table th {
+    padding: 12px 15px;
+}
+
+/* Filas de la tabla */
+.contactos-table tbody tr {
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+.contactos-table tbody tr:hover {
+    background-color: #f1f1f1; /* Efecto hover */
+}
+
+/* Celdas de la tabla */
+.contactos-table td {
+    padding: 12px 15px;
+}
+
+/* Botón de "Enviar mensaje" */
+.contactos-table .btn {
+    background-color: #008CBA;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;
+}
+
+.contactos-table .btn:hover {
+    background-color: #005f75; /* Color al pasar el mouse */
+}
+
+/* Casilla de verificación */
+.contactos-table .checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+/* Estilo para el botón después de hacer clic */
+.contactos-table .btn.clicked {
+    background-color: #3e8e41;
+}
+
+
